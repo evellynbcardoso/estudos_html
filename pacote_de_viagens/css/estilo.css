@@ -1,0 +1,77 @@
+body{
+    /* (../) serve para sair de uma pagina para conseguir entrar em outra  */
+    background-image: url("../imagens/japao.jpg");
+    /* no-repeat e para nao repitir a imagem  */
+    background-repeat: no-repeat;
+    /* top é para ele ficar em cima  */
+    background-position: top;
+    /* cover seria uma capa que  preenchendo a tela    */
+    background-size: cover;
+    /* centralização dos textos  */
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+}
+
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: lightcoral;
+    text-shadow: black 2px 2px;
+}
+
+#contato{
+    text-align: left;
+    font-size: 30px;
+    border-style: solid;
+    border-color: lightyellow;
+    border-width: 10px;
+    width:50%;
+    margin: auto;
+}
+/* quando for # e por conta que é ID ja quando for . é por conta que é uma CLASSE  */
+#tabela{
+    border-style: solid;
+    background-color: maroon;
+    border-color: lightyellow;
+    font-size: 24px;
+    color: white;
+}
+
+th{
+    border-style: solid;
+    background-color: maroon;
+    border-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+td{
+    border-style: solid;
+    background-color: lightgrey;
+    border-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+#botão{
+    color: red;
+    text-shadow: black 1px 1px;
+    text-align: right;
+}
+
+hr{
+    border: 10px solid lightcoral;
+}
+
+footer{
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
