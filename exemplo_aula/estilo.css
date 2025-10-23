@@ -1,0 +1,20 @@
+h1{
+    background-color: aqua;
+}
+
+h2{
+    background-color: darkorange;
+}
+
+body{
+    background-image: url(https://sp.senai.br/images/senai.svg);
+    /* o X deixa na vertical e o Y deixa na horizontal
+    background-repeat:repeat-y;
+    background-repeat: repeat-x; */
+    /* (no repeat ) nao repete  */
+    background-repeat: no-repeat;
+    /* so vai posicionar  */
+    background-position: right top;
+    /* vai fixar a imagem  */
+    background-attachment: fixed;
+}
