@@ -40,6 +40,57 @@ h4 {
     display: inline ;
 }
 
-#menu ul,li,a{
+#menu ul li a{
     padding: 10px 30px;
+    text-decoration: none;
+    background-color: #ededed;
+    /* faz o linque se comportar como caixinha, maisfica na mesma linha */
+    display:inline-block;
+    border-bottom: 3px solid #ededed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 0 50px;
+}
+#menu ul li a:hover{
+    background-color: #b5d45b;
+    color: #2d10e2;
+    border-bottom: 3px solid #EA0000;
+}
+
+/* menu vertical */
+/* selecionar o ul que estiver dentro do elemento id menuv */
+#menuv ul{
+    /* remove as bolinha/marcadores padrões da lista */
+list-style-type: none;
+/* zera a margem */
+margin-left: 0;
+/* espaço inferior do ul:20px em cima /baixo e 50px nas laterais */
+padding: 20px 50px;
+/* largura fixa da area do menu */
+width: 150px;
+background-color: #2b1010;
+}
+
+/* seleciona os links <a> dentro de cada <li> daquele <ul> do #menuv */
+#menuv ul li a{
+    /* faz cada link virar um bloco(ocupa a linha inteira do menu) */
+    /* isso é que deixa os intens empilhados verticalmente e toda a linha clicavel */
+    display: block;
+    padding: 10px 40px;
+    background-color: #ededed;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 3px solid #ededed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 2px 0px;
+}
+
+#menuv ul li a:hover{
+    background-color: #b5d45b;
+    color: #2d19e2;
+    border-bottom: 3px solid #EA0000;
 }
