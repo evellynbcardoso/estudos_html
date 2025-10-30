@@ -30,10 +30,37 @@ h4{
 menu ul{
     list-style: none;
     position: relative;
-    /* o pai sempre tem que ser relative  */
+    /* o pai sempre tem que ser relative e os "filhos são absolute" */
 }
 
 .menu ul li{
     width: 200px;
     float: left;
+}
+
+.menu a{
+    /* os a são uma ancora  */
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #2b1010;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.menu ul ul{
+    position: absolute;
+    visibility: hidden;
+    /* visibility gidden ele faz o subtitulo começar escondido */
+}
+
+.menu ul li:hover ul{
+    visibility: visible;
+}
+
+.menu a:hover{
+    background-color: #862175;
+    color: yellowgreen;
 }
